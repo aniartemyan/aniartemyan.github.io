@@ -7,17 +7,31 @@
         text-align: left;
         border: 10px;
       }
+      .left-part {
+        float: left;
+        width: 50%;
+      }
+      aside {
+        float: left;
+        width: 50%;
+      }
     </style>
   </head>
   <body>
     <header>
       <h2 style="text-align:left;">Personal Profile</h2>
     </header>
-    <div>
-      <img src="Ani-CV-Photo.jpg" width="345" height="518" alt="Ani Artemyan's photo">
-    </div>
-    <div>
-      /*<>
+    <div class="left-part">
+      <section>
+        <img src="Ani-CV-Photo.jpg" width="345" height="518" alt="Ani Artemyan's photo">
+      </section>
+      <aside>
+        <ul>
+          <li>DoB: <i>September 15, 1990</i></li>
+          <li>Education: Postgraduate</li>
+          <li>Profession: Engineer, HR Manager</li>
+        </ul>
+      </aside>
     </div>
   </body>
 </html>

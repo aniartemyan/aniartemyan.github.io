@@ -1,44 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ani Artemyan - CV</title>
+    <title>Ani Artemyan - ToDo List</title>
     <style>
-      body {
-        background-color: #00e6e6;
-      }
       div {
-        float: left;
-        width: 50%;
+        text-align: left;
+        border: 10px;
       }
-      mark {
-        background-color: blueviolet;
-        color: yellow;
+      .left-part {
+        float: left;
+        width: 375px;
       }
       aside {
         float: left;
-        width: 50%;
       }
     </style>
   </head>
   <body>
+    <header>
+      <h2 style="text-align:left;"><u>ToDo List</u></h2>
+    </header>
     <div class="left-part">
       <section>
-        <h2 style="text-align:left;"><span style="color:violet;font-weight:bold">Computer Skills</span></h2>
-        <ul>
-          <li>MS Office</li>
-          <li>JavaScript</li>
-          <li>GIS</li>
-        </ul>
+        <img src="ToDoList-image.jpg" width="345" height="518" alt="blackboord">
       </section>
     </div>
     <aside>
-      <h2 style="text-align:left;"><span style="color:light-green"><mark>Languages</mark></span></h2>
-      <ol>
-        <li><b>Armenian</b> - Native</li>
-        <li><b>English</b> - B2</li>
-        <li><b>Russian</b> - Excellent</li>
-        <li><b>French</b> - A0</li>
-      </ol>
+      <h1>ToDo List</h1>
     </aside>
   </body>
 </html>
